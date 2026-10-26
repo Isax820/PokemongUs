@@ -14,7 +14,7 @@ using Object = UnityEngine.Object;
 
 namespace PokeLobby;
 
-[BepInAutoPlugin("dev.xtracube.pokelobby", "Pokemon Lobby Mod")]
+[BepInAutoPlugin("com.isax.pokelobby", "Pokemon Lobby Mod")]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(ReactorPlugin.Id)]
 [ReactorModFlags(ModFlags.RequireOnAllClients)]
@@ -30,7 +30,7 @@ public partial class PokeLobbyPlugin : BasePlugin
 
     public override void Load()
     {
-        ReactorCredits.Register("PokeLobby - XtraCube", Version.Split("+")[0], false, ReactorCredits.AlwaysShow);
+        ReactorCredits.Register("PokeLobby", Version.Split("+")[0], false, ReactorCredits.AlwaysShow);
         PokeResources.Load();
         Harmony.PatchAll();
     }
