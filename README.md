@@ -19,8 +19,8 @@ Pokémon inspired lobby for Among Us. I originally created this in 2021 or 2022 
 	<a href="https://github.com/Isax820/PokemongUs/releases/latest">
 		<img alt="Latest GitHub Release" src="https://img.shields.io/github/v/release/Isax820/PokemongUs?include_prereleases">
 	</a>
-	<a href="https://github.com/Isax820/PokemongUs/blob/main/LICENSE">
-		<img alt="GitHub License" src="https://img.shields.io/github/LICENSE/Isax820/PokemongUs">
+	<a href="https://github.com/Isax820/PokemongUs/blob/main/LICENSE.md">
+		<img alt="GitHub License" src="https://img.shields.io/github/license/Isax820/PokemongUs">
 	</a>
     <a href="https://discord.gg/zz2bCrU8wp">
 		<img alt="Discord" src="https://img.shields.io/discord/1076082745509429268?color=cornflowerblue&label=Discord&logo=Discord&logoColor=white">
